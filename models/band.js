@@ -28,11 +28,11 @@
             allowNull: false
         },
         available_start_time: {
-            type: DataTypes.DATE,
+            type: DataTypes.TIME,
             allowNull: false
         },
         end_time: {
-            type: DataTypes.DATE,
+            type: DataTypes.TIME,
             allowNull: false
         }
     }, {
